@@ -23,6 +23,7 @@ public class ArrayManipulation {
 		return smallest;
 	}
 	
+	// even if it is private it can be called from inside the class
 	private static double findAverage(int[] array) {
 		
 		double sum = 0;
@@ -32,6 +33,9 @@ public class ArrayManipulation {
 		
 		return sum/array.length;
 	}
+	
+	
+	
 	
 	public static void main (String[] args) {
 
